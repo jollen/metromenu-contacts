@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Capture Photo</title>  
+  </head>
+  <body>
+  
+<div data-role="page">  
+  	<div data-role="content">
+  
+    <a onclick="capturePhoto();" data-icon="arrow-u" data-role="button">Capture Button</a><br />
+    <button onclick="capturePhotoEdit();" class='red'>Capture Editable Photo</button> <br>
+    <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);" class='red'>From Photo Library</button><br>
+    <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);" class='red'>From Photo Album</button><br>
+    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+    <img style="display:none;" id="largeImage" src="" />
+    
+    </div>
+ </div>
+ 
+  </body>
+  
+</html>

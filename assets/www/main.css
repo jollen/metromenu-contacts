@@ -1,0 +1,15 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#draw-background {
+	width: 240px;
+	height: 320px;
+    background: #808080;
+}
+
+h1 {
+	font-size: 36px;
+	color: #011892;
+}
